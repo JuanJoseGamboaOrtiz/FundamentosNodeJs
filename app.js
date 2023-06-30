@@ -104,9 +104,46 @@
     operaciones de E/S no bloqueantes y devoluciones de llamada. Esto permite que
     Node.js maneje múltiples solicitudes y operaciones de manera eficiente, lo que lo
     hace adecuado para aplicaciones en tiempo real y de alta concurrencia.
-    
 
+ * ! Configuración
 
+ * ? 1.4.1 ¿Que es Nvm?
+    NVM (Node Version Manager) es una herramienta que permite administrar
+    múltiples versiones de Node.js en un sistema. Con NVM, puedes instalar, cambiar
+    y administrar fácilmente las versiones de Node.js en tu entorno de desarrollo.
+
+    Algunas de las funcionalidades clave de NVM son:
+
+    * ? Instalación de versiones específicas: 
+        NVM te permite instalar versiones
+        específicas de Node.js en tu sistema. Puedes elegir la versión que necesites
+        según los requisitos de tu proyecto.
+    * ? Cambio de Versión de Nodej.js:
+        Con NVM, puedes cambiar rápidamente entre
+        diferentes versiones de Node.js según tus necesidades. Esto es útil cuando tienes
+        múltiples proyectos que requieren versiones específicas de Node.js.
+    * ? Administración de versiones globales y locales: 
+        NVM te permite gestionar
+        tanto las versiones globales como las locales de Node.js. Puedes configurar una
+        versión global para todo el sistema y también establecer una versión local en un
+        proyecto específico.
+    * ? Uso de LTS (Long Term Support)  y versiones inestables: 
+        NVM te permite
+        instalar tanto las versiones de LTS (soporte a largo plazo) de Node.js, que son
+        más estables y se recomiendan para la mayoría de los proyectos, como las
+        versiones inestables o en desarrollo.
+    * ? Interfaz de línea de comandos sencilla: 
+        NVM proporciona una interfaz de línea
+        de comandos sencilla y fácil de usar. Puedes instalar, desinstalar y cambiar
+        rápidamente las versiones de Node.js con simples comandos.
+        NVM es especialmente útil cuando necesitas trabajar en proyectos que utilizan
+        diferentes versiones de Node.js o cuando deseas probar tu código en diferentes
+        versiones para garantizar la compatibilidad. Te brinda flexibilidad y control sobre
+        las versiones de Node.js en tu sistema.
+        Es importante tener en cuenta que NVM está disponible principalmente para
+        sistemas operativos basados en Unix, como Linux y macOS. Sin embargo,
+        también existe una alternativa llamada "nvm-windows" para entornos Windows
+        que proporciona funcionalidad similar.
 
 
  */
