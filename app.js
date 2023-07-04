@@ -144,6 +144,58 @@
         sistemas operativos basados en Unix, como Linux y macOS. Sin embargo,
         también existe una alternativa llamada "nvm-windows" para entornos Windows
         que proporciona funcionalidad similar.
+    
+ * ? 1.4.5 Comando básicos de NVM en Linux
 
+    * ?  nvm install <version>: 
+        Este comando instala una versión específica de
+        Node.js. Por ejemplo, puedes usar nvm install 14.17.0 para instalar la
+        versión 14.17.0 de Node.js.
+    * ? nvm use <version>:
+        Este comando establece la versión especificada de
+    
+    * ? nvm current:    
+        Este comando muestra la versión de Node.js que estás
+        utilizando actualmente.
+    * ? nvm ls:
+        Este comando lista todas las versiones de Node.js instaladas en tu
+        sistema.
+    * ? nvm ls-remote:
+        Este comando lista todas las versiones de Node.js
+        disponibles para instalar.
+    * ? nvm alias <name> <version>:
+        Este comando crea un alias para una
+        versión específica de Node.js. Puedes usar este alias en lugar de
+        especificar la versión completa. Por ejemplo, nvm alias default 14.17.0 crea
+        un alias llamado "default" para la versión 14.17.0 de Node.js.
+    * ? nvm use <alias>:
+        Este comando establece el alias especificado como la
+        versión activa de Node.js. Por ejemplo, nvm use default establece la versión
+        aliada "default" como la versión activa.
+    * ?  nvm unistall <version>:
+        Este comando desinstala la versión especificada de Node.js.
+    * ? nvm reinstall-packages <version>:
+        Este comando reinstala los paquetes npm instalados globalmente en la versión especificada de Node.js.
+  * ! 1.5 Ejecutar archivos JavaScript en Node
+        Para ejecutar un archivo en Node.js, sigue estos pasos:
+        
+        * ? Crea una carpteta : 
+            EN el escritorio, crea una carpeta llamada "PrimeraVezEnNode".
+        * ? Crea un Archivo : 
+            Dentro de la carpeta "primeraVezEnNode", crea un
+            archivo llamado "main.js". Puedes usar un editor de texto o un entorno de
+            desarrollo integrado, como Visual Studio Code, para crear el archivo.
+        * ? Abre la Terminal:
+            En Visual Studio Code, abre la terminal desde la barra de
+            menú seleccionando "Terminal" y luego "Nueva Terminal". Asegúrate de que
+            la terminal esté ubicada en la carpeta "primeraVezEnNode".
+        * ? Ejecuta el archivo: 
+            En la terminal, escribe el siguiente comando para
+            ejecutar el archivo "node main.js"
+            
+        Siguiendo estos pasos, podrás ejecutar el archivo "main.js" en Node.js desde la
+        terminal de Visual Studio Code.
+        
+        
 
  */
